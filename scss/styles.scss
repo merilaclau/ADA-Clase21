@@ -1,0 +1,16 @@
+.dimensions-father {
+    height: 20vh;
+    width: 80vw;
+    &.color-father1 {
+        background-color: lightcoral;
+    }
+    &.color-father2 {
+        background-color: lightsalmon
+    }
+    .child {
+        background-color: lightskyblue;
+        border: 1px dashed grey;
+        height: 10vh;
+        width: 30vw;
+    }
+}
